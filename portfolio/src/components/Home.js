@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 import Card from 'react-bootstrap/Card';
-import profile from '../../images/profile.png';
+import profile from './profile.png';
 
 function Home() {
   return (
