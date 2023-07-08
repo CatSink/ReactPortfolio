@@ -1,18 +1,17 @@
-import React from 'react'
-import './src/App.css'
+import React from 'react';
+import '../App.css';
 
-export default function Navigation () {
+function Navigation() {
+  return (
+    <div className="topnav">
+  <a className="active" href="#home">About Me</a>
+  <a href="#myWork">Portfolio</a>
+  <a href="#skills">Resume</a>
+  <a href="#contact">Contact Me</a>
+</div>
+  );
+}
 
-    return (
-      <div className="topnav">
-        <a className="active" href="#aboutMe">About Me</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact Information</a>
-        <a href="#resume">Resume</a>
-      </div>
-   
-    
-    );
-  }
+export default Navigation;
   
   
